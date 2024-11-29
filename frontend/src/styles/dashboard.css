@@ -1,0 +1,45 @@
+.main-container{
+    border: 1px solid red;
+    width: 74%;
+    height: 500px;
+    margin-left: 9vw;
+    margin-top: 19px;
+}
+
+.inner-section{
+    border: 1px solid black;
+    margin: 20px;
+    height: 24vw;
+}
+
+.queries{
+    margin: 22px;
+    border: 1px solid green;
+    height: 76px;
+}
+
+.sidebar-container{
+    border: 1px solid blue;
+    width: 33vw;
+    margin-right: 20px;
+}
+
+.container{
+    display: flex;
+}
+
+.head-online-users{
+    text-align: center;
+    border: 1px solid blue;
+    margin-top: 9px;
+    width: 93%;
+    margin: 20px;
+}
+
+.all-posts{
+    width: 59%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    margin: auto;
+}

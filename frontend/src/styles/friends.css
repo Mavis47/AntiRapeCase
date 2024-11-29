@@ -1,0 +1,101 @@
+.friend-container{
+    display: flex;
+    background: whitesmoke;
+}
+
+.friend-request-form{
+    width: 447px;
+    border: 1px solid red;
+    margin: 22px;
+    height: 650px;
+}
+
+.show-friends{
+    margin: 21px;
+    border: 1px solid blue;
+    width: 967px;
+}
+
+.heading{
+    text-align: center;
+    height: 39px;
+    padding-top: 8px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.send-request-field{
+    margin-top: 153px;
+    margin-left: 19px;
+    width: 406px;
+}
+
+.btn{
+    margin: 5px;
+    margin-left: 69px;
+    width: 96px;
+    height: 41px;
+    border: 1px solid #a3acdf;
+    background: #9ebffa;
+    border-radius: 15px;
+    margin-top: 76px;
+}
+
+.friend-count{
+    text-align: center;
+    font-size: 31px;
+    font-weight: bold;
+    height: 68px;
+    padding-top: 12px;
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.friend-card-container{
+    display: flex;
+    margin: 21px;
+    gap: 87px;
+}
+
+.friend-card{
+    width: 889px;
+    background: ghostwhite;
+    height: 42px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.msg{
+    width: 104px;
+    background: aquamarine;
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 6px;
+}
+
+.container2{
+    display: flex;
+    gap: 12px;
+    flex-direction: column; 
+    /* overflow-y: scroll;  not working */ 
+}
+
+.friend-card{
+    display: flex;
+    gap: 20px;
+    line-height: 27px;
+}
+
+.image-profile-pic{
+    width: 43px;
+    border-radius: 50%;
+    height: 36px;
+    margin-left: 9px;
+    margin-top: 2px;
+}
+
+.friend-username{
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 500;
+}

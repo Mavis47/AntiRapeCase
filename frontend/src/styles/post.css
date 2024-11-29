@@ -1,0 +1,85 @@
+.form_sidebar{
+    border: 1px solid red;
+    width: 26%;
+    height: 500px;
+    margin: 46px;
+    border-radius: 9px;
+}
+
+.main_container{
+    display: flex;
+}
+
+.post_container{
+    width: 89%;
+    margin: 1px solid red;
+    margin: 51px;
+    border: 2px solid red;
+    height: 463px;
+}
+
+.main_post_container{
+    border: 1px solid black;
+    width: 65%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.post_navbar{
+    width: 836px;
+    border: 1px solid black;
+    height: 45px;
+    margin: 20px;
+    display: flex;
+}
+
+.middle-post{
+    border: 1px solid blue;
+    height: 294px;
+    margin: 20px;
+}
+
+.Upload-image{
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: 700;
+    font-family: ui-serif;
+}
+
+form{
+    margin: 20px;
+}
+
+#text-input{
+    width: 341px;
+    margin-top: 58px;
+}
+
+#file-upload{
+    padding: 30px;
+}
+
+#image-span{
+    width: 40px; /* Adjust the size as needed */
+    height: 40px;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border: 2px solid #ccc; 
+}
+
+#image-span img{
+    border-radius: 50%;
+    height: 38px;
+}
+
+#username{
+    line-height: 37px;
+    font-size: 18px;
+    margin-left: 18px;
+}
+
+.post_image{
+    width: 55vw;
+    height: 86vh;
+}
